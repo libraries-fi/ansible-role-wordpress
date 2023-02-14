@@ -33,6 +33,6 @@ wordpress_webroot: "{{sites_dir}}/{{site_name}}/www"
 # TODO: implement a generic template
 # wordpress_config_template: wp-config.php.j2
 
-wordpress_cookiehub: true
+wordpress_cookiehub: false
 wordpress_cookiehub_repo: git@gitlab.com:libraries-fi/wp-cookiehub-plugin.git
 wordpress_cookiehub_version: 5d1c2a2e206e7b093e1c3b383875c51949a6dc86
