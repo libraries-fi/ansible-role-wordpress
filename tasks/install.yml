@@ -56,6 +56,6 @@
   git:
     repo: "{{ wordpress_cookiehub_repo }}"
     version: "{{ wordpress_cookiehub_version }}"
-    dest: "{{ sites_dir }}/musiikkikirjastot.fi/web/app/plugins/kifi-cookiehub"
+    dest: "{{ wordpress_cookiehub_dest }}"
   when: wordpress_cookiehub
   tags: cookiehub
