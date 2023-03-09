@@ -36,4 +36,6 @@ wordpress_webroot: "{{sites_dir}}/{{site_name}}/www"
 wordpress_cookiehub: false
 wordpress_cookiehub_repo: git@gitlab.com:libraries-fi/wp-cookiehub-plugin.git
 wordpress_cookiehub_version: 5d1c2a2e206e7b093e1c3b383875c51949a6dc86
-wordpress_cookiehub_dest: "{{sites_dir}}/{{site_name}}/web/app/plugins/kifi-cookiehub/"
+wordpress_cookiehub_dest: "{{sites_dir}}/{{site_name}}/web/app/plugins/kifi-cookiehub"
+wordpress_yoast: false
+wordpress_yoast_token: ""
