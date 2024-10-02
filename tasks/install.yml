@@ -24,6 +24,8 @@
   shell: >
     composer install --prefer-source --no-interaction
     chdir={{ wordpress_site_dir }}
+  environment:
+    COMPOSER_ALLOW_SUPERUSER: 1
   when: wordpress_bedrock is defined
 
 - name: Copy files in place
